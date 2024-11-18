@@ -104,5 +104,5 @@ def update_task(task_id):
         return redirect(url_for('assignment_page'))
     return render_template('assignment/update.html', task=task)
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+if __name__ == "__main__":
+    app.run(debug=True, port=8080)
